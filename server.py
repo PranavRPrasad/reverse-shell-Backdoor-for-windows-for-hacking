@@ -56,7 +56,7 @@ def server():
 	s.listen(5)
 	print("listening for incoming connection")
 	target, ip=s.accept()
-	print("target connected")
+	print("target connected successfully")
 server()
 shell()
 s.close()
